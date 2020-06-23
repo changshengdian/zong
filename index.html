@@ -8,7 +8,11 @@
   body{
     background-image:url(timg.jpg);
     background-repeat:no-repeat;
-    background-size: 100% auto;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
   }
   div{
     margin-left: 11cm;
@@ -36,7 +40,7 @@
   <audio autoplay="true">
     <source src="renxi.mp3" type="audio/mp3" />
     </audio>
-    <div><img src="2.png" alt="图片" /></div>
+    <div><img src="2.png" /></div>
     <button onclick="tz()" style="background: url(a.png); width:164px;height:60px;"></button>
     <script>
     function tz(){
